@@ -1,0 +1,38 @@
+#+title: GitOps with ArgoCD
+
+* Prerequisites 
+
+** Yandex Cloud
+- init yandex folder
+- Set Folder ID
+  #+begin_src shell :results :output
+  yc config set folder-id "enpoa3s1k5o1or9rb7ie" 
+  #+end_src
+** Create Service Account
+#+begin_src shell :results output
+yc iam service-account create --name otus-teach-ca
+
+#+end_src
+
+#+RESULTS:
+
+
+* GitOps with ArgoCD 
+#+begin_src sh :eval yes :results verbatim
+hello
+#+end_src
+
+#+RESULTS:
+: ############################################################
+: Wellcome to DevOps Advanced setup
+: git version 2.51.2
+: Terraform v1.14.0
+: on linux_amd64
+: Yandex Cloud CLI 0.174.0 linux/amd64
+: ############################################################
+
+
+
+
+
+

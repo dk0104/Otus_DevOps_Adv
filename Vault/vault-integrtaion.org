@@ -1,0 +1,28 @@
+#+title: Vault Integrtaion
+* Wellcome
+** Environment
+  #+begin_src sh :results verbatim :eval yes
+  hello
+  #+end_src
+
+  #+RESULTS:
+  : ############################################################
+  : Wellcome to DevOps Advanced setup
+  : git version 2.51.2
+  : Terraform v1.14.0
+  : on linux_amd64
+  : Yandex Cloud CLI 0.174.0 linux/amd64
+  : ############################################################
+** Cluster setup
+#+begin_quote
+Cluster contain two basic elements both are created with terraform and yc tf provider. 
+#+end_quote
+
+*** GitLab-Ce
+
+*** Cluster with Vault
+** Environment var injection
+** Secret injection
+** SSH clients 
+
+
