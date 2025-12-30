@@ -1,7 +1,6 @@
 #+title: GitOps with ArgoCD
 
 * Prerequisites 
-
 ** Yandex Cloud
 - init yandex folder
 - Set Folder ID
@@ -16,9 +15,8 @@ yc iam service-account create --name otus-teach-ca
 
 #+RESULTS:
 
-
 * GitOps with ArgoCD 
-#+begin_src sh :eval yes :results verbatim
+#+begin_src sh :eval yes :results verbatim 
 hello
 #+end_src
 
